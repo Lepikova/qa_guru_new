@@ -18,5 +18,5 @@ def test_selenium_web(driver):
     url = "https://github.com/"
     driver.get(url)
 
-    assert driver.title in "GitHub"
+    assert "GitHub" in driver.title
     assert driver.current_url == url
