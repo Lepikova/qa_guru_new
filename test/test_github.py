@@ -14,7 +14,7 @@ def driver():
     driver.quit()
 
 
-def test_selenium_web(driver):
+def test_open_github(driver):
     url = "https://github.com/"
     driver.get(url)
 

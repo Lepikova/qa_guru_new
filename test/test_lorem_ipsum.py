@@ -11,9 +11,11 @@ def add(a, b):
 
 
 def greet(name):
-    print("Привет, {name}!")
+    print("Привет, " + name + "!")
 
 
 numbers = [1, 2, 3, 4, 5]
+
 greet("мир")
-print(add(2, 2))
+
+print(add(a=numbers[1], b=numbers[1]))
